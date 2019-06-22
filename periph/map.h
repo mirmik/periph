@@ -3,10 +3,10 @@
 
 #include <periph/chip.h>
 
-#if defined(CHIP_ARCH_AVR)
+#if defined(CHIP_AVR)
 #include <periph/map/avr.h>
 
-#if defined(CHIP_ARCH_ARM)
+#elif defined(CHIP_ARM)
 #include <periph/map/arm.h>
 
 #else

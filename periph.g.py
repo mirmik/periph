@@ -1,5 +1,5 @@
 import licant 
 
-licant.module("periph",
+licant.module("periph.include",
 	include_paths = "."
 )

@@ -9,6 +9,10 @@
 #define CHIP_ATMEGA_168_328
 #endif
 
+#if defined(CHIP_ATMEGA328P)
+#define CHIP_ATMEGA_168_328
+#endif
+
 #if defined(CHIP_ATMEGA1280)
 #define CHIP_ATMEGA_1280_2560
 #endif
